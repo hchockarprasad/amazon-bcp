@@ -1,0 +1,1 @@
+[{"model": "authentication.role", "pk": 1, "fields": {"name": "Super Admin"}}, {"model": "authentication.role", "pk": 2, "fields": {"name": "Admin"}}, {"model": "authentication.role", "pk": 3, "fields": {"name": "General"}}]
