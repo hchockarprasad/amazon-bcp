@@ -38,10 +38,10 @@ class Privilege(models.Model):
         db_table = 'tbl_privilege'
 
     def __str__(self):
-        return self.pk
+        return self.menu.name
 
     def __unicode__(self):
-        return self.pk
+        return self.menu.name
 
 
 class UserProfile(models.Model):
