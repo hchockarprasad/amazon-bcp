@@ -1,4 +1,4 @@
-APP_LIST ?= authentication
+APP_LIST ?= authentication dashboard
 
 run:
 	python manage.py runserver 0.0.0.0:8000
